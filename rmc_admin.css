@@ -1,0 +1,571 @@
+
+.rmc_wrap{
+    padding-right: 20px;
+}
+
+.rmc_wrap h1.rmc_wp-heading-inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.rmc_wrap .rmc_wp-heading-inline+.rmc_page-title-action {
+    margin-left: 0;
+}
+
+.rmc_wrap .rmc_page-title-action, .rmc_wrap .rmc_page-title-action:active {
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+}
+
+.rmc_wp-header-end {
+    visibility: hidden;
+    margin: -2px 0 0;
+}
+
+.rmc_subsubsub {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+    float: left;
+    color: #666;
+}
+
+.rmc_subsubsub li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.rmc_subsubsub a.rmc_current {
+    color: #000;
+}
+
+.rmc_subsubsub a .rmc_count, .rmc_subsubsub a.rmc_current .rmc_count {
+    color: #555d66;
+    font-weight: 400;
+}
+
+.rmc_subsubsub a {
+    line-height: 2;
+    padding: .2em;
+    text-decoration: none;
+}
+
+.rmc_subsubsub a.rmc_current {
+    font-weight: 600;
+    border: none;
+}
+
+.rmc_tablenav {
+    clear: both;
+    height: 30px;
+    margin: 6px 0 4px;
+    vertical-align: middle;
+}
+
+.rmc_tablenav .rmc_tablenav-pages {
+    float: right;
+    margin: 3px 0 9px;
+}
+
+.rmc_tablenav .rmc_displaying-num {
+    margin-right: 7px;
+}
+
+.rmc_wrap .rmc_button[disabled]{
+    color: #a0a5aa!important;
+    border-color: #ddd!important;
+    background: #f7f7f7!important;
+    box-shadow: none!important;
+    text-shadow: 0 1px 0 #fff!important;
+    cursor: default;
+    transform: none!important;
+}
+
+.rmc_wrap .rmc_button{
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.rmc_tablenav .rmc_tablenav-pages .rmc_button {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 28px;
+    min-height: 28px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.rmc_row-title {
+    font-size: 14px!important;
+    font-weight: 600;
+}
+
+.rmc_row-actions {
+    color: #ddd;
+    font-size: 13px;
+    padding: 2px 0 0;
+    position: relative;
+    left: -9999em;
+}
+
+.rmc_row-actions span.rmc_trash a{
+	color: #a00;
+}
+
+tr:hover .rmc_row-actions {
+    position: static;
+}
+
+.rmc_row-actions .rmc_trash a:hover{
+    color: #dc3232;
+    border: none;
+}
+
+table.rmc_fixed {
+    table-layout: fixed;
+}
+
+table.rmc_widefat {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.rmc_widefat * {
+    word-wrap: break-word;
+}
+
+.rmc_widefat {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+.rmc_striped>tbody>:nth-child(even), 
+ul.rmc_striped>:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.rmc_striped>tbody>:nth-child(odd), 
+ul.rmc_striped>:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.rmc_striped>thead>:nth-child(odd),
+.rmc_striped>tfoot>:nth-child(odd){
+    background-color: #ffffff;
+}
+
+.rmc_widefat td, .rmc_widefat th {
+    color: #555;
+}
+
+.rmc_widefat a {
+    text-decoration: none;
+}
+
+.rmc_widefat tfoot td, .rmc_widefat tfoot th, .rmc_widefat thead td, .rmc_widefat thead th{
+    line-height: 1.4em;
+}
+
+.rmc_widefat thead td, .rmc_widefat thead th {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.rmc_widefat tfoot td, .rmc_widefat tfoot th {
+    border-top: 1px solid #e1e1e1;
+}
+
+.rmc_widefat tfoot td, .rmc_widefat th, .rmc_widefat thead td {
+    font-weight: 400;
+}
+
+.rmc_widefat td, .rmc_widefat th {
+    padding: 8px 10px;
+}
+
+.rmc_widefat tfoot td, .rmc_widefat th, .rmc_widefat thead td {
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.rmc_tabs_section .dashicons.rmc_rotate180{
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.rmc_tabs_section .dashicons{
+	margin-right: 8px;
+}
+
+.rmc_tabs_section .rmc_liDisplayRequired .dashicons.dashicons-info{
+	margin-right: 0px;
+}
+
+.rmc_tabs_section{
+	margin: 20px 20px 20px 0;
+	background-color: white;
+	/*border-top: 1px solid #eee;
+	border-left: 1px solid #eee;*/
+	min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border-radius: 4px;
+}
+
+.rmc_tabs_title{
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	font-weight: bold;
+	display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+	font-size: 20px;
+    min-height: 32px;
+}
+
+.rmc_tabs_title > div{
+    line-height: initial;
+    display: flex;
+}
+
+.rmc_labelWPeditor{
+	display: flex;
+    justify-content: space-between;
+}
+
+.rmc_tabs_tips{
+	padding: 10px;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background-color: #fff;
+}
+
+.rmc_tabs_tips span{
+	font-weight: bold;
+}
+
+.rmc_tabs_title div:nth-child(2){
+	display: flex;
+    align-items: baseline;
+}
+
+.rmc_tabs_title div:nth-child(2) a{
+	font-size: 13px;
+    color: #a00;
+}
+
+.rmc_tabs_title div:nth-child(2) .submit{
+    margin: 0 20px;
+    padding: 0;
+}
+
+.rmc_tabs_container{
+	display: -webkit-box!important;display: -ms-flexbox!important;display: -webkit-flex!important;display: flex!important;
+	align-items: flex-start;
+}
+
+.rmc_menu_container {
+	width: 20%;
+}
+
+.rmc_menu_container ul{
+	margin: 0;
+}
+
+.rmc_menu_container li a{
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+.rmc_menu_container li a:focus{
+	box-shadow: none;
+}
+
+.rmc_menu_container li{
+	border-bottom: 1px solid #eee;
+	margin: 0;
+	color: #0073aa;
+}
+
+.rmc_tabs_content{
+	display: none;
+}
+
+.rmc_tabs_content > div{
+	padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.rmc_tabs_content > div:last-child{
+	padding-right: 0px;
+}
+
+.rmc_tabs_content_active{
+	display: flex;
+}
+
+.rmc_width100{
+	width: 100%
+}
+
+.rmc_width50{
+	width: 50%;
+}
+
+.rmc_width33{
+	width: 33%;
+}
+
+.rmc_width25{
+	width: 25%;
+}
+
+.rmc_content_container{
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	padding: 10px 40px;
+	margin: 0;
+	width: 100%;
+	min-height: 350px;
+}
+
+.rmc_tabs_active{
+	background-color: #eee;
+}
+
+.rmc_fieldsContent .dashicons-editor-help{
+	cursor: help;
+	margin-left: 2px;
+	color: black;
+	float: right;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.rmc_tabs_section .rmc_tabLabel{
+	cursor: help;
+}
+
+.rmc_field{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.rmc_field .rmc_fieldLabelTop{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: initial;
+}
+
+.rmc_field .rmc_fieldLabelTop ~ .rmc_fieldsContent{
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.rmc_tabs_content .rmc_field button{
+	margin-right: 0px;
+}
+
+.rmc_adminNotice{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #4ca556;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.rmc_adminNoticeError{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #cc4e3b;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.rmc_adminNoticeWarning{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #ea9c00;
+    color: white;
+    padding: 12px;
+    margin: 20px 20px 0px 0;
+    font-weight: bold;
+}
+
+.rmc_btnClose{
+	float: right;
+	cursor: pointer;
+}
+
+#rmc_reminder_parameter_general{
+	visibility: hidden;
+	display: none;
+}
+
+
+
+
+
+
+.rmc_field label{
+	width: 200px;
+	overflow: hidden;
+}
+
+.rmc_field input[disabled]{
+	background-color: #f3f3f3;
+}
+
+.rmc_fieldsContent input[type="text"], 
+.rmc_fieldsContent input[type="number"], 
+.rmc_fieldsContent input[type="email"], 
+.rmc_fieldsContent input[type="date"], 
+.rmc_fieldsContent input[type="time"], 
+/*.rmc_fieldsContent button[type="button"], */
+.rmc_fieldsContent a, 
+.rmc_fieldsContent textarea,
+.rmc_fieldsContent select,
+.rmc_fieldsContent .rmc_noedit{
+	width: 100%;
+    max-width: 100%;
+    border-radius: 2px;
+    border-color: #ddd;
+}
+
+.rmc_fieldsContent{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.rmc_field a{
+	word-break: break-all;
+}
+
+.rmc_ui_verticallist{
+	display: flex;
+	flex-direction: column;
+}
+
+.rmc_ui_verticallist > div,
+.rmc_ui_verticallist > form > div
+{
+	margin: 4px 0;
+}
+
+.rmc_marginTopColumn{
+    margin-top: 37px;
+}
+
+.rmc_hiddenWPEditor{
+	display: none;
+}
+
+.rmc_mt20{
+	margin-top: 20px;
+}
+
+.rmc_mt10{
+	margin-top: 10px;
+}
+
+.widefat.rmc_table td, 
+.widefat.rmc_table th{
+	vertical-align: middle;
+	align-items: center;
+}
+
+.rmc_table caption{
+	padding: 8px;
+    text-align: left;
+	font-weight: bold;
+    /*background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-top: none;*/
+	color: #0073aa;
+
+}
+
+#rmc_rmc_cancelEditFieldButton{
+	visibility: hidden;
+    text-align: right;
+    margin-right: 20px;
+    width: initial;
+}
+
+.rmc_tabs_content .submit{
+    text-align: right;
+}
+
+.rmc_adminHelp{
+    display: flex;
+    flex-direction: column;
+}
+
+.rmc_adminHelp img{
+    margin: 10px auto;
+    border: 1px solid #b0b0b0;
+    width: 100%;
+}
+
+.rmc_adminHelp p{
+    margin: 5px 0;
+}

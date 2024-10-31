@@ -1,0 +1,462 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Recherche Multi-Champs\n"
+"POT-Creation-Date: 2020-02-27 19:44+0100\n"
+"PO-Revision-Date: 2020-02-27 19:45+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rmc.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: rmc.php:68
+msgid "Licence activation: Please try in a few moment"
+msgstr "Licence activation: Please try in a few moment"
+
+#: rmc.php:69
+msgid "Your licence has expired, thank you for renewing it"
+msgstr "Your licence has expired, thank you for renewing it"
+
+#: rmc.php:70
+msgid "The licence is not associated to this domain"
+msgstr "The licence is not associated to this domain"
+
+#: rmc.php:71
+msgid "Your licence has been deactivated"
+msgstr "Your licence has been deactivated"
+
+#: rmc.php:72
+msgid "This licence key is unknown"
+msgstr "This licence key is unknown"
+
+#: rmc.php:73
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: rmc.php:179 rmc.php:238
+msgid "Numeric"
+msgstr "Numeric"
+
+#: rmc.php:180 rmc.php:238
+msgid "Text"
+msgstr "Text"
+
+#: rmc.php:196
+msgid "Delete"
+msgstr "Delete"
+
+#: rmc.php:213 rmc.php:434 rmc.php:451
+msgid "Fields"
+msgstr "Fields"
+
+#: rmc.php:213 rmc.php:234
+msgid "Type"
+msgstr "Type"
+
+#: rmc.php:226
+msgid "Name"
+msgstr "Name"
+
+#: rmc.php:227
+msgid "The name of the field"
+msgstr "The name of the field"
+
+#: rmc.php:235
+msgid ""
+"Choose the type \"Numeric\" to allow your visitors to search >=, <= or = at "
+"a number"
+msgstr ""
+"Choose the type \"Numeric\" to allow your visitors to search >=, <= or = at "
+"a number"
+
+#: rmc.php:247
+msgid "Cancel"
+msgstr "Cancel"
+
+#: rmc.php:249
+msgid "Add field"
+msgstr "Add field"
+
+#: rmc.php:265 rmc.php:266
+msgid "Display fields in posts when calling shortcode [rmc_shortcode]"
+msgstr "Display fields in posts when calling shortcode [rmc_shortcode]"
+
+#: rmc.php:275 rmc.php:276
+msgid "Display fields in pages when calling shortcode [rmc_shortcode]"
+msgstr "Display fields in pages when calling shortcode [rmc_shortcode]"
+
+#: rmc.php:285 rmc.php:286
+msgid "Display fields in products when calling shortcode [rmc_shortcode]"
+msgstr "Display fields in products when calling shortcode [rmc_shortcode]"
+
+#: rmc.php:295 rmc.php:296
+msgid "Display empty fields when calling shortcode [rmc_shortcode]"
+msgstr "Display empty fields when calling shortcode [rmc_shortcode]"
+
+#: rmc.php:305 rmc.php:306
+msgid ""
+"Display results for empty fields when calling shortcode "
+"[rmc_search_shortcode]"
+msgstr ""
+"Display results for empty fields when calling shortcode "
+"[rmc_search_shortcode]"
+
+#: rmc.php:315
+msgid "Delete all data on uninstall"
+msgstr "Delete all data on uninstall"
+
+#: rmc.php:316
+msgid ""
+"Do not activate this setting if you want to install the premium version or "
+"if you want to keep your settings / fields for later"
+msgstr ""
+"Do not activate this setting if you want to install the premium version or "
+"if you want to keep your settings / fields for later"
+
+#: rmc.php:327
+msgid "Above"
+msgstr "Above"
+
+#: rmc.php:328
+msgid "Below"
+msgstr "Below"
+
+#: rmc.php:338
+msgid "Licence key"
+msgstr "Licence key"
+
+#: rmc.php:339
+msgid "Licence key for premium version"
+msgstr "Licence key for premium version"
+
+#: rmc.php:347 rmc.php:348
+msgid "Color of form borders"
+msgstr "Color of form borders"
+
+#: rmc.php:356
+msgid "Thickness of form borders"
+msgstr "Thickness of form borders"
+
+#: rmc.php:357
+msgid "Thickness in pixels of form borders"
+msgstr "Thickness in pixels of form borders"
+
+#: rmc.php:365
+msgid "Position of the results"
+msgstr "Position of the results"
+
+#: rmc.php:366
+msgid "Position of the results in relation to the form"
+msgstr "Position of the results in relation to the form"
+
+#: rmc.php:373
+msgid "Update settings"
+msgstr "Update settings"
+
+#: rmc.php:377
+msgid "How to use the plugin?"
+msgstr "How to use the plugin?"
+
+#: rmc.php:378
+msgid "1. First of all"
+msgstr "1. First of all"
+
+#: rmc.php:379
+msgid ""
+"You have to create the fields you need. To do this, go to the Fields section "
+"and then on the right side of the screen. Enter the public name of the "
+"field, choose the type and click on the button to add the field"
+msgstr ""
+"You have to create the fields you need. To do this, go to the Fields section "
+"and then on the right side of the screen. Enter the public name of the "
+"field, choose the type and click on the button to add the field"
+
+#: rmc.php:380
+msgid ""
+"If you want to allow your visitors to search with a larger or lower "
+"comparison on a numeric, choose the numeric type for your field"
+msgstr ""
+"If you want to allow your visitors to search with a larger or lower "
+"comparison on a numeric, choose the numeric type for your field"
+
+#: rmc.php:381
+msgid ""
+"For example, we want to display a field relating to a brand. This will allow "
+"visitors to find information about their favorite brand in your posts, pages "
+"or directly find products from that brand.<br>So we create a field called "
+"\"Famous Brand\" with the type \"Text\":"
+msgstr ""
+"For example, we want to display a field relating to a brand. This will allow "
+"visitors to find information about their favorite brand in your posts, pages "
+"or directly find products from that brand.<br>So we create a field called "
+"\"Famous Brand\" with the type \"Text\":"
+
+#: rmc.php:385
+msgid "2. Fill-in the fields"
+msgstr "2. Fill-in the fields"
+
+#: rmc.php:386
+msgid ""
+"Now that the fields are created, you need to fill them in in your posts, "
+"pages or products. To do this, first check if the custom fields are "
+"displayed in your posts, pages and products: When you modify a post or a "
+"page, click on the button at the top right with the three vertical dots "
+"inside. Then choose \"Options\". Finally, click on \"Custom fields\" if it "
+"is not checked and accept the reload"
+msgstr ""
+"Now that the fields are created, you need to fill them in in your posts, "
+"pages or products. To do this, first check if the custom fields are "
+"displayed in your posts, pages and products: When you modify a post or a "
+"page, click on the button at the top right with the three vertical dots "
+"inside. Then choose \"Options\". Finally, click on \"Custom fields\" if it "
+"is not checked and accept the reload"
+
+#: rmc.php:388
+msgid ""
+"To enable custom fields in products, click on \"Screen Options\" button on "
+"the top of the screen when you edit a product and then check \"Custom Fields"
+"\""
+msgstr ""
+"To enable custom fields in products, click on \"Screen Options\" button on "
+"the top of the screen when you edit a product and then check \"Custom Fields"
+"\""
+
+#: rmc.php:390
+msgid ""
+"Now, for all your posts, pages and products, you have access to the custom "
+"fields at the bottom of the screen when you edit. Enter the value you want "
+"for each of them"
+msgstr ""
+"Now, for all your posts, pages and products, you have access to the custom "
+"fields at the bottom of the screen when you edit. Enter the value you want "
+"for each of them"
+
+#: rmc.php:394
+msgid "3. Display the fields"
+msgstr "3. Display the fields"
+
+#: rmc.php:395
+msgid ""
+"This step is facultative. If you want to display the fields and associated "
+"values to your visitors for the posts, pages and products, you juste have to "
+"insert the following shortcode in them: [rmc_shortcode]"
+msgstr ""
+"This step is facultative. If you want to display the fields and associated "
+"values to your visitors for the posts, pages and products, you juste have to "
+"insert the following shortcode in them: [rmc_shortcode]"
+
+#: rmc.php:398
+msgid ""
+"Then, the results of this shortcode will give something like this for your "
+"visitors:"
+msgstr ""
+"Then, the results of this shortcode will give something like this for your "
+"visitors:"
+
+#: rmc.php:402
+msgid "4. Insert the form"
+msgstr "4. Insert the form"
+
+#: rmc.php:403
+msgid ""
+"Now that all your fields are ready, you can offer search forms to your "
+"visitors and filter the posts, pages and products with these fields. There "
+"are two ways to insert a search form:<br>- Insert a form in the widgets<br>- "
+"Insert a form with the shortcode [rmc_search_shortcode]"
+msgstr ""
+"Now that all your fields are ready, you can offer search forms to your "
+"visitors and filter the posts, pages and products with these fields. There "
+"are two ways to insert a search form:<br>- Insert a form in the widgets<br>- "
+"Insert a form with the shortcode [rmc_search_shortcode]"
+
+#: rmc.php:404
+msgid "- Insert form in widget"
+msgstr "- Insert form in widget"
+
+#: rmc.php:405
+msgid ""
+"Go to the wordpress menu \"Appearance > Widgets\" and look for the "
+"\"Recherche Multi Champs\" widget in the \"Available widgets\" section. "
+"Click on this widget, choose the sidebar / section you want for this widget, "
+"then click on the \"Add widget\" button. The widget appears on the right of "
+"the screen. You can then change its position and title if you wish"
+msgstr ""
+"Go to the wordpress menu \"Appearance > Widgets\" and look for the "
+"\"Recherche Multi Champs\" widget in the \"Available widgets\" section. "
+"Click on this widget, choose the sidebar / section you want for this widget, "
+"then click on the \"Add widget\" button. The widget appears on the right of "
+"the screen. You can then change its position and title if you wish"
+
+#: rmc.php:407
+msgid "- Insert form with the shortcode [rmc_search_shortcode]"
+msgstr "- Insert form with the shortcode [rmc_search_shortcode]"
+
+#: rmc.php:408
+msgid ""
+"If you want to display the search form in a specific location, insert the "
+"shortcode [rmc_search_shortcode] in the post, page or product you want. You "
+"just copy/paste this shortcode like this:"
+msgstr ""
+"If you want to display the search form in a specific location, insert the "
+"shortcode [rmc_search_shortcode] in the post, page or product you want. You "
+"just copy/paste this shortcode like this:"
+
+#: rmc.php:412
+msgid "4. Customization"
+msgstr "4. Customization"
+
+#: rmc.php:413
+msgid ""
+"This step is optional. <br> - If you want to change the appearance or the "
+"position of the results, choose if the empty fields should be considered / "
+"displayed or not, go to the \"Settings\" section of the plugin and make the "
+"changes you want"
+msgstr ""
+"This step is optional. <br> - If you want to change the appearance or the "
+"position of the results, choose if the empty fields should be considered / "
+"displayed or not, go to the \"Settings\" section of the plugin and make the "
+"changes you want"
+
+#: rmc.php:416
+msgid ""
+" - You can also change the size of the search form. To do this, you need to "
+"add an attribute to the shortcode like the examples below: <br> "
+"[rmc_search_shortcode size=\"50%\"] <br> [rmc_search_shortcode size=\"250px"
+"\"]"
+msgstr ""
+" - You can also change the size of the search form. To do this, you need to "
+"add an attribute to the shortcode like the examples below: <br> "
+"[rmc_search_shortcode size=\"50%\"] <br> [rmc_search_shortcode size=\"250px"
+"\"]"
+
+#: rmc.php:417
+msgid ""
+" - If you have to redirect the search to a specific page, you can use the "
+"\"action\" attribute in the shortcode like this example:"
+msgstr ""
+" - If you have to redirect the search to a specific page, you can use the "
+"\"action\" attribute in the shortcode like this example:"
+
+#: rmc.php:419
+msgid ""
+"All results then will be displayed on page 2. Shortcode must be present on "
+"page 2"
+msgstr ""
+"All results then will be displayed on page 2. Shortcode must be present on "
+"page 2"
+
+#: rmc.php:435 rmc.php:452
+msgid "Settings"
+msgstr "Settings"
+
+#: rmc.php:436 rmc.php:453
+msgid "Help"
+msgstr "Help"
+
+#: rmc.php:533 rmc_widget.php:36
+msgid "All"
+msgstr "All"
+
+#: rmc.php:547 rmc_widget.php:51
+msgid "Empty"
+msgstr "Empty"
+
+#: rmc.php:568 rmc_widget.php:75
+msgid "Results per page"
+msgstr "Results per page"
+
+#: rmc.php:579 rmc_widget.php:86
+msgid "Search"
+msgstr "Search"
+
+#: rmc.php:662
+msgid "Search results"
+msgstr "Search results"
+
+#: rmc.php:739
+msgid "No results for this search, please try again with less criteria."
+msgstr "No results for this search, please try again with less criteria."
+
+#: rmc.php:766
+msgid "Previous page"
+msgstr "Previous page"
+
+#: rmc.php:792
+msgid "Next page"
+msgstr "Next page"
+
+#: rmc.php:872
+msgid "Move to trash"
+msgstr "Move to trash"
+
+#: rmc.php:874
+msgid "Update"
+msgstr "Update"
+
+#: rmc.php:910
+msgid "Info bar. Displays information when you edit a field"
+msgstr "Info bar. Displays information when you edit a field"
+
+#: rmc.php:964 rmc.php:1056 rmc.php:1111
+msgid "See the details below in the info bar"
+msgstr "See the details below in the info bar"
+
+#: rmc.php:1170
+msgid "Are you sure you want to delete this item?"
+msgstr "Are you sure you want to delete this item?"
+
+#: rmc.php:1171
+msgid "Please fill in the label"
+msgstr "Please fill in the label"
+
+#: rmc.php:1172
+msgid "Please fill in the maximum quantity"
+msgstr "Please fill in the maximum quantity"
+
+#: rmc.php:1173
+msgid "Please fill in the end date"
+msgstr "Please fill in the end date"
+
+#: rmc_widget.php:6
+msgid "Search via custom fields"
+msgstr "Search via custom fields"
+
+#: rmc_widget.php:98
+msgid "Title:"
+msgstr "Title:"
+
+#. Plugin Name of the plugin/theme
+msgid "Recherche Multi-Champs"
+msgstr "Recherche Multi-Champs"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/recherche-multi-champs/"
+msgstr "https://wordpress.org/plugins/recherche-multi-champs/"
+
+#. Description of the plugin/theme
+msgid ""
+"Créer vos propres champs pour vos articles/pages et proposer une recherche "
+"basée sur ces champs à vos visiteurs."
+msgstr ""
+"Créer vos propres champs pour vos articles/pages et proposer une recherche "
+"basée sur ces champs à vos visiteurs."
+
+#. Author of the plugin/theme
+msgid "CreaLion.NET"
+msgstr "CreaLion.NET"
+
+#. Author URI of the plugin/theme
+msgid "https://crealion.net"
+msgstr "https://crealion.net"
